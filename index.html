@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоги Весеннего Педсовета - Центр знаний "Машук"</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 700;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        }
+        
+        .speaker-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-card {
+            background: linear-gradient(145deg, #f9fafb 0%, #f3f4f6 100%);
+        }
+        
+        .floating-nav {
+            position: sticky;
+            top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .floating-nav {
+                display: none;
+            }
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <img src="https://via.placeholder.com/50" alt="Логотип Машук" class="h-10">
+                    <span class="font-bold text-lg text-blue-700">Центр знаний "Машук"</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-blue-700 font-medium">Главная</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700">Мероприятия</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700">Новости</a>
+                    <a href="#" class="text-gray-600 hover:text-blue-700">Контакты</a>
+                </div>
+                <button class="md:hidden text-gray-600">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white">
+        <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
+            <div class="md:w-2/3">
+                <span class="inline-block px-3 py-1 mb-4 bg-blue-800 rounded-full text-sm font-medium">Отчет о мероприятии</span>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Весенний Педсовет в Центре знаний "Машук"</h1>
+                <p class="text-xl mb-8 text-blue-100">Итоги масштабного образовательного события для педагогов России</p>
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex items-center">
+                        <i class="far fa-calendar-alt mr-2"></i>
+                        <span>12-14 апреля 2023</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        <span>Пятигорск, Ставропольский край</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-users mr-2"></i>
+                        <span>320+ участников</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-6 py-12 lg:flex lg:space-x-8">
+        <!-- Floating Navigation -->
+        <div class="hidden lg:block lg:w-1/4 xl:w-1/5 floating-nav h-fit">
+            <div class="bg-white p-6 rounded-lg shadow-md sticky top-6">
+                <h3 class="text-lg font-bold mb-4 text-blue-700">Содержание</h3>
+                <ul class="space-y-3">
+                    <li><a href="#intro" class="hover:text-blue-600 hover:underline">Описание мероприятия</a></li>
+                    <li><a href="#topics" class="hover:text-blue-600 hover:underline">Ключевые темы</a></li>
+                    <li><a href="#speakers" class="hover:text-blue-600 hover:underline">Выступления</a></li>
+                    <li><a href="#analytics" class="hover:text-blue-600 hover:underline">Аналитика</a></li>
+                    <li><a href="#resources" class="hover:text-blue-600 hover:underline">Ресурсы</a></li>
+                    <li><a href="#gallery" class="hover:text-blue-600 hover:underline">Галерея</a></li>
+                </ul>
+                
+                <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+                    <h4 class="font-bold mb-2 text-blue-800">Полезные ссылки</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Программа мероприятия</a></li>
+                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Видеозаписи выступлений</a></li>
+                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Фотоальбом</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article Content -->
+        <article class="lg:w-3/4 xl:w-4/5">
+            <!-- Introduction Section -->
+            <section id="intro" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Описание мероприятия</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                    <img src="https://via.placeholder.com/1200x500" alt="Участники Весеннего Педсовета" class="w-full h-auto">
+                    <div class="p-6">
+                        <p class="mb-6 text-lg">С 12 по 14 апреля в Центре знаний "Машук" прошло масштабное событие для педагогов со всей России — "Весенний Педсовет". Более 300 участников, 20 спикеров и 3 дня интенсивной работы над актуальными вопросами современного образования.</p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div class="bg-blue-50 p-6 rounded-lg">
+                                <h3 class="text-xl font-bold mb-4 text-blue-800 flex items-center">
+                                    <i class="fas fa-bullseye mr-3 text-blue-500"></i>
+                                    Цели мероприятия
+                                </h3>
+                                <ul class="space-y-3 list-disc pl-5">
+                                    <li>Развитие профессиональных компетенций педагогов</li>
+                                    <li>Обмен лучшими практиками преподавания</li>
+                                    <li>Создание сетевых профессиональных связей</li>
+                                    <li>Внедрение инновационных образовательных технологий</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-yellow-50 p-6 rounded-lg">
+                                <h3 class="text-xl font-bold mb-4 text-yellow-800 flex items-center">
+                                    <i class="fas fa-tasks mr-3 text-yellow-500"></i>
+                                    Задачи
+                                </h3>
+                                <ul class="space-y-3 list-disc pl-5">
+                                    <li>Повышение уровня педагогической грамотности</li>
+                                    <li>Поддержка молодых специалистов</li>
+                                    <li>Адаптация образовательных практик к современным вызовам</li>
+                                    <li>Создание методических рекомендаций</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <p>Мероприятие прошло в смешанном формате: помимо очных участников, к событию присоединились более 500 педагогов в онлайн-режиме через платформу вебинаров. Программа включала лекции, мастер-классы, панельные дискуссии и нетворкинг-сессии.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Topics Section -->
+            <section id="topics" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Ключевые темы и аудитория</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-4 text-gray-800">Основные направления работы:</h3>
+                        
+                        <div class="flex flex-wrap gap-3 mb-6">
+                            <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Цифровизация образования</span>
+                            <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Методики преподавания</span>
+                            <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium">Психология обучения</span>
+                            <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">Ментальное здоровье</span>
+                            <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Профразвитие педагогов</span>
+                        </div>
+                        
+                        <p class="mb-6">В рамках "Весеннего Педсовета" были подняты наиболее актуальные вопросы современной педагогики. Особое внимание было уделено цифровой трансформации образования, психологическим аспектам работы с новым поколением учеников и методикам эффективного преподавания в условиях меняющегося мира.</p>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold mb-4 flex items-center">
+                                    <i class="fas fa-users mr-3 text-blue-500"></i>
+                                    Состав участников:
+                                </h4>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <ul class="space-y-2">
+                                        <li class="flex justify-between">
+                                            <span>Школьные учителя</span>
+                                            <span class="font-bold">45%</span>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <span>Преподаватели вузов</span>
+                                            <span class="font-bold">20%</span>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <span>Методисты</span>
+                                            <span class="font-bold">15%</span>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <span>Студенты педвузов</span>
+                                            <span class="font-bold">10%</span>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <span>Другие специалисты</span>
+                                            <span class="font-bold">10%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 class="text-xl font-bold mb-4 flex items-center">
+                                    <i class="fas fa-map-marked-alt mr-3 text-blue-500"></i>
+                                    География участников:
+                                </h4>
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <p class="mb-2">Всего представлено 42 региона Российской Федерации. Наибольшее количество участников прибыло из:</p>
+                                    <ul class="list-disc pl-5 space-y-1">
+                                        <li>Ставропольского края (23%)</li>
+                                        <li>Москвы и Московской области (18%)</li>
+                                        <li>Краснодарского края (15%)</li>
+                                        <li>Ростовской области (12%)</li>
+                                        <li>Республики Северная Осетия-Алания (8%)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <img src="https://via.placeholder.com/1000x500" alt="Карта участников" class="w-full h-auto rounded-lg shadow">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Speakers Section -->
+            <section id="speakers" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Выступления спикеров</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <p class="mb-8 text-lg">В рамках "Весеннего Педсовета" выступили 20 ведущих экспертов в области образования. Представляем вам обзор ключевых докладов:</p>
+                
+                <!-- Speaker Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- Speaker 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Иван Петров" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Иван Петров</h3>
+                            <p class="text-sm text-gray-600 mb-3">Директор школы №123, эксперт в области цифровизации образования</p>
+                            
+                            <div class="mb-3">
+                                <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Цифровизация</span>
+                                <span class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Методики</span>
+                            </div>
+                            
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Как внедрить цифровые технологии в учебный процесс"</p>
+                            
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Цифровизация должна быть поэтапной</li>
+                                <li>Обучение педагогов работе с новыми инструментами</li>
+                                <li>Учёт психологических особенностей учеников</li>
+                            </ul>
+                            
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Цифровые технологии не заменят учителя, но сделают его работу эффективнее"</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Speaker 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Елена Смирнова" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Елена Смирнова</h3>
+                            <p class="text-sm text-gray-600 mb-3">Доктор педагогических наук, профессор МПГУ</p>
+                            
+                            <div class="mb-3">
+                                <span class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Психология</span>
+                                <span class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Мотивация</span>
+                            </div>
+                            
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Психологические аспекты мотивации современного школьника"</p>
+                            
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Изменение мотивационных факторов у поколения Z</li>
+                                <li>Техники вовлечения в учебный процесс</li>
+                                <li>Роль эмоционального интеллекта педагога</li>
+                            </ul>
+                            
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Сегодняшние дети учатся не ради знаний, а ради смыслов"</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Speaker 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Андрей Козлов</h3>
+                            <p class="text-sm text-gray-600 mb-3">Разработчик образовательных платформ</p>
+                            
+                            <div class="mb-3">
+                                <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+                            
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Образовательные технологии 2023: тенденции и инструменты"</p>
+                            
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+                            
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <button class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
+                        Смотреть всех спикеров (20)
+                    </button>
+                </div>
+            </section>
+
+            <!-- Analytics Section -->
+            <section id="analytics" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Аналитика программы</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h3 class="text-2xl font-bold mb-6">Статистика мероприятия</h3>
+                    
+                    <div class="grid md:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
+                            <div class="text-4xl font-bold text-blue-600 mb-2">320+</div>
+                            <h4 class="text-lg font-medium">Участников</h4>
+                            <p class="text-sm text-gray-600 mt-2">Очно / онлайн</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
+                            <div class="text-4xl font-bold text-green-600 mb-2">48</div>
+                            <h4 class="text-lg font-medium">Часов работы</h4>
+                            <p class="text-sm text-gray-600 mt-2">В течение 3 дней</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
+                            <div class="text-4xl font-bold text-purple-600 mb-2">200+</div>
+                            <h4 class="text-lg font-medium">Вопросов и обсуждений</h4>
+                            <p class="text-sm text-gray-600 mt-2">Живая вовлеченность</p>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-4">Отзывы участников</h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="testimonial-card p-6 rounded-lg shadow-sm">
+                            <div class="flex items-center mb-4">
+                                <img src="https://via.placeholder.com/50" alt="Ольга Иванова" class="w-12 h-12 rounded-full mr-4">
+                                <div>
+                                    <h4 class="font-bold">Ольга Иванова</h4>
+                                    <p class="text-sm text-gray-600">Учитель математики, г. Ставрополь</p>
+                                </div>
+                            </div>
+                            <p class="italic">"Благодаря вашим мастер-классам я открыла для себя новые цифровые инструменты, которые уже применяю на уроках. Особенно ценен живой обмен опытом с коллегами."</p>
+                            <div class="flex mt-3 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card p-6 rounded-lg shadow-sm">
+                            <div class="flex items-center mb-4">
+                                <img src="https://via.placeholder.com/50" alt="Сергей Петров" class="w-12 h-12 rounded-full mr-4">
+                                <div>
+                                    <h4 class="font-bold">Сергей Петров</h4>
+                                    <p class="text-sm text-gray-600">Методист, г. Ростов-на-Дону</p>
+                                </div>
+                            </div>
+                            <p class="italic">"Отличная организация, насыщенная программа и высокий уровень спикеров. Вернусь в свой регион с массой идей для внедрения!"</p>
+                            <div class="flex mt-3 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-4">Топ-5 самых популярных сессий</h3>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>1. Цифровые инструменты для учителя</span>
+                            <span class="font-bold text-blue-600">87%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 87%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>2. Работа с мотивацией учеников</span>
+                            <span class="font-bold text-blue-600">82%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>3. Профилактика эмоционального выгорания</span>
+                            <span class="font-bold text-blue-600">78%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>4. Современные методики преподавания</span>
+                            <span class="font-bold text-blue-600">75%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span>5. Правовые аспекты работы педагога</span>
+                            <span class="font-bold text-blue-600">68%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 68%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resources Section -->
+            <section id="resources" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Полезные материалы</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4 flex items-center">
+                                <i class="fas fa-file-alt mr-3 text-blue-500"></i>
+                                Презентации и раздаточные материалы
+                            </h3>
+                            
+                            <div class="space-y-3">
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-pdf text-red-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">"Цифровые инструменты для учителя"</h4>
+                                            <p class="text-sm text-gray-600">Иван Петров, 15.4 MB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">"Мотивация современного школьника"</h4>
+                                            <p class="text-sm text-gray-600">Елена Смирнова, 8.2 MB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fas fa-file-word text-blue-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">"Методические рекомендации"</h4>
+                                            <p class="text-sm text-gray-600">Оргкомитет, 3.1 MB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4 flex items-center">
+                                <i class="fas fa-video mr-3 text-blue-500"></i>
+                                Видеозаписи выступлений
+                            </h3>
+                            
+                            <div class="space-y-3">
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fab fa-youtube text-red-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Церемония открытия</h4>
+                                            <p class="text-sm text-gray-600">Длительность: 1 ч 23 мин</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fab fa-youtube text-red-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Панельная дискуссия "Образование 2025"</h4>
+                                            <p class="text-sm text-gray-600">Длительность: 2 ч 05 мин</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
+                                    <div class="flex items-center">
+                                        <i class="fab fa-youtube text-red-500 text-2xl mr-3"></i>
+                                        <div>
+                                            <h4 class="font-bold">Мастер-классы для учителей</h4>
+                                            <p class="text-sm text-gray-600">4 видео, от 45 мин</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-4 flex items-center">
+                        <i class="fas fa-book mr-3 text-blue-500"></i>
+                        Рекомендуемая литература
+                    </h3>
+                    
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                        <div class="border rounded-lg overflow-hidden">
+                            <img src="https://via.placeholder.com/200x300" alt="Обложка книги" class="w-full h-40 object-cover">
+                            <div class="p-3">
+                                <h4 class="font-bold text-sm">"Цифровая дидактика"</h4>
+                                <p class="text-xs text-gray-600">А.В. Молчанов, 2022</p>
+                            </div>
+                        </div>
+                        
+                        <div class="border rounded-lg overflow-hidden">
+                            <img src="https://via.placeholder.com/200x300" alt="Обложка книги" class="w-full h-40 object-cover">
+                            <div class="p-3">
+                                <h4 class="font-bold text-sm">"Эмоциональный интеллект учителя"</h4>
+                                <p class="text-xs text-gray-600">Е.П. Смирнова, 2021</p>
+                            </div>
+                        </div>
+                        
+                        <div class="border rounded-lg overflow-hidden">
+                            <img src="https://via.placeholder.com/200x300" alt="Обложка книги" class="w-full h-40 object-cover">
+                            <div class="p-3">
+                                <h4 class="font-bold text-sm">"Современные образовательные технологии"</h4>
+                                <p class="text-xs text-gray-600">Сборник статей, 2023</p>
+                            </div>
+                        </div>
+                        
+                        <div class="border rounded-lg overflow-hidden">
+                            <img src="https://via.placeholder.com/200x300" alt="Обложка книги" class="w-full h-40 object-cover">
+                            <div class="p-3">
+                                <h4 class="font-bold text-sm">"Психология обучения в цифровую эпоху"</h4>
+                                <p class="text-xs text-gray-600">И.Ю. Петрова, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-100 p-4 rounded-lg flex flex-wrap items-center justify-between">
+                        <div>
+                            <h4 class="font-bold mb-1">Хотите получить все материалы?</h4>
+                            <p class="text-sm text-gray-600">Мы отправим вам полный набор презентаций и записей</p>
+                        </div>
+                        <button class="px-6 py-2 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition duration-300 whitespace-nowrap mt-2 sm:mt-0">
+                            <i class="fas fa-envelope mr-2"></i> Оставить email
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Фотогалерея</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="gallery-grid mb-8">
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Церемония открытия" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Церемония открытия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Участники дискуссии" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Панельная дискуссия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Мастер-класс" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Мастер-класс</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Работа в группах" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Работа в группах</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Спикер отвечает на вопросы" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Q&A сессия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://via.placeholder.com/800x600" alt="Закрытие мероприятия" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Церемония закрытия</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <button class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
+                        <i class="fas fa-images mr-2"></i> Смотреть все фото (136)
+                    </button>
+                </div>
+            </section>
+
+            <!-- Conclusion Section -->
+            <section class="bg-blue-50 rounded-lg p-8 mb-16">
+                <div class="text-center mb-6">
+                    <h2 class="text-3xl font-bold text-blue-800 mb-4">Следующий этап — осенняя серия мероприятий</h2>
+                    <p class="text-lg max-w-3xl mx-auto">Мы уже начали подготовку к осенним событиям в Центре знаний "Машук". Оставьте свою заявку, чтобы первыми узнать о программе и спикерах.</p>
+                </div>
+                
+                <form class="max-w-2xl mx-auto">
+                    <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">ФИО</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="interests" class="block text-sm font-medium text-gray-700 mb-1">Интересуют темы</label>
+                        <select id="interests" multiple class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            <option>Цифровизация образования</option>
+                            <option>Методики преподавания</option>
+                            <option>Психология обучения</option>
+                            <option>Ментальное здоровье</option>
+                            <option>Профразвитие педагогов</option>
+                        </select>
+                        <p class="text-xs text-gray-400 mt-1">Удерживайте Ctrl для выбора нескольких тем</p>
+                    </div>
+                    
+                    <div class="flex items-center mb-4">
+                        <input id="consent" type="checkbox" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                        <label for="consent" class="ml-2 text-sm text-gray-700">Я согласен на обработку персональных данных</label>
+                    </div>
+                    
+                    <button type="submit" class="w-full py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
+                        Оставить заявку
+                    </button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Центр знаний "Машук"</h3>
+                    <p class="text-gray-400 mb-4">Ведущая образовательная площадка на Северном Кавказе.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-vk fa-lg"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-telegram fa-lg"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Контакты</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3 text-gray-400"></i>
+                            <span>г. Пятигорск, ул. Ленина, 56</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-gray-400"></i>
+                            <span>+7 (8793) 33-22-11</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-gray-400"></i>
+                            <span>info@mashuk-center.ru</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Меню</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Главная</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Мероприятия</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Новости</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Календарь</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Подписаться на новости</h3>
+                    <form class="flex">
+                        <input type="email" placeholder="Ваш email" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-900 w-full">
+                        <button type="submit" class="bg-blue-600 px-4 py-2 rounded-r-lg hover:bg-blue-700 transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <p class="text-xs text-gray-400 mt-2">Обещаем присылать только полезную информацию</p>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 text-gray-400 text-sm text-center">
+                <p>© 2023 Центр знаний "Машук". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-blue-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
