@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,42 +9,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap');
-        
+
         body {
             font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
             color: #333;
         }
-        
-        h1, h2, h3, h4 {
+
+        h1,
+        h2,
+        h3,
+        h4 {
             font-family: 'Roboto Slab', serif;
             font-weight: 700;
         }
-        
+
         .hero-gradient {
             background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
         }
-        
+
         .speaker-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
         }
-        
+
         .testimonial-card {
             background: linear-gradient(145deg, #f9fafb 0%, #f3f4f6 100%);
         }
-        
+
         .floating-nav {
             position: sticky;
             top: 20px;
         }
-        
+
         @media (max-width: 768px) {
             .floating-nav {
                 display: none;
             }
         }
-        
+
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -51,19 +55,18 @@
         }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <!-- Navigation -->
     <nav class="bg-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
-                    <img src="https://центрзнаниймашук.рф/wp-content/themes/mashuk/assets/images/logo.png" alt="Логотип Машук" class="h-10">
+                    <img src="https://центрзнаниймашук.рф/wp-content/themes/mashuk/assets/images/logo.png"
+                        alt="Логотип Машук" class="h-10">
                     <span class="font-bold text-lg text-blue-700"></span>
                 </div>
 
-                <button class="md:hidden text-gray-600">
-                    <i class="fas fa-bars text-xl"></i>
-                </button>
             </div>
         </div>
     </nav>
@@ -72,8 +75,12 @@
     <header class="hero-gradient text-white">
         <div class="max-w-6xl mx-auto px-6 py-20 md:py-28">
             <div class="md:w-2/3">
-                <span class="inline-block px-3 py-1 mb-4 bg-blue-800 rounded-full text-sm font-medium">Отчет о мероприятии</span>
-                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Весенний Педсовет в Центре знаний "Машук"</h1>
+                <span class="inline-block px-3 py-1 mb-4 bg-blue-800 rounded-full text-sm font-medium">Отчет о
+                    мероприятии</span>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Весенний Педсовет в
+                </h1>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">Центре знаний "Машук"
+                </h1>
                 <p class="text-xl mb-8 text-blue-100">Итоги весеннего образовательного события для педагогов России</p>
                 <div class="flex flex-wrap gap-4">
                     <div class="flex items-center">
@@ -86,7 +93,7 @@
                     </div>
                     <div class="flex items-center">
                         <i class="fas fa-users mr-2"></i>
-                        <span>150 участников</span>
+                        <span>150 + 2 участника</span>
                     </div>
                 </div>
             </div>
@@ -107,15 +114,6 @@
                     <li><a href="#resources" class="hover:text-blue-600 hover:underline">Ресурсы</a></li>
                     <li><a href="#gallery" class="hover:text-blue-600 hover:underline">Галерея</a></li>
                 </ul>
-                
-                <div class="mt-8 p-4 bg-blue-50 rounded-lg">
-                    <h4 class="font-bold mb-2 text-blue-800">Полезные ссылки</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Программа мероприятия</a></li>
-                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Видеозаписи выступлений</a></li>
-                        <li><a href="#" class="text-blue-600 text-sm hover:underline">Фотоальбом</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
 
@@ -128,41 +126,55 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Описание мероприятия</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
-                    <img src="https://sun9-39.userapi.com/impg/ra2eHh5cn2BNA0k6MN7JtZ8nnIXJIgDBIUGCgA/-kdhVaLBvfc.jpg?size=2560x1706&quality=95&sign=0e47fc522e2d917aef8e8edef18387ee&type=album" alt="Участники Весеннего Педсовета" class="w-full h-auto">
+                    <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/2025-04-01_15-48-02_LM.jpg?raw=true"
+                        alt="Участники Весеннего Педсовета" class="w-full h-auto">
                     <div class="p-6">
-                        <p class="mb-6 text-lg">С 01 по 04 апреля в Центре знаний "Машук" прошло обычное, но весеннее событие для педагогов со всей России — "Весенний Педсовет". 150 участников, 20 спикеров и 3 дня интенсивной работы над актуальными вопросами современного образования.</p>
-                        
-                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <p class="mb-6 text-lg">С 01 по 04 апреля в Центре знаний "Машук" прошло обычное, но весеннее
+                            событие для педагогов со всей России
+                            — "Весенний Педсовет". 150 участников, 20 спикеров и 4 дня интенсивной работы над
+                            актуальными вопросами современного образования.</p>
+
+                        <div class="grid md:grid-cols-1 gap-6 mb-6">
                             <div class="bg-blue-50 p-6 rounded-lg">
                                 <h3 class="text-xl font-bold mb-4 text-blue-800 flex items-center">
                                     <i class="fas fa-bullseye mr-3 text-blue-500"></i>
                                     Цели мероприятия
                                 </h3>
                                 <ul class="space-y-3 list-disc pl-5">
-                                    <li>Развитие профессиональных компетенций педагогов</li>
-                                    <li>Обмен лучшими практиками преподавания</li>
-                                    <li>Создание сетевых профессиональных связей</li>
-                                    <li>Внедрение инновационных образовательных технологий</li>
+                                    <li>Обучение участников современным инструментам и методикам работы с детьми и
+                                        молодежью в условиях летнего периода.</li>
                                 </ul>
                             </div>
-                            
+
                             <div class="bg-yellow-50 p-6 rounded-lg">
                                 <h3 class="text-xl font-bold mb-4 text-yellow-800 flex items-center">
                                     <i class="fas fa-tasks mr-3 text-yellow-500"></i>
                                     Задачи
                                 </h3>
                                 <ul class="space-y-3 list-disc pl-5">
-                                    <li>Повышение уровня педагогической грамотности</li>
-                                    <li>Поддержка молодых специалистов</li>
-                                    <li>Адаптация образовательных практик к современным вызовам</li>
-                                    <li>Создание методических рекомендаций</li>
+                                    <li>Повысить уровень компетентности участников в вопросах эффективного
+                                        взаимодействия с детьми и молодежью в рамках летних программ.</li>
+
+                                    <li> Обеспечить участников актуальной информацией о возможностях профессионального
+                                        развития в летний период.</li>
+
+                                    <li> Познакомить участников с успешными практиками организации летнего отдыха и
+                                        воспитательной работы.</li>
+
+                                    <li> Содействовать повышению компетентности вожатых в применении современных
+                                        воспитательных методик.</li>
+
+                                    <li> Сформировать единые подходы к созданию медийных продуктов, ориентированных на
+                                        школьников и педагогов.</li>
+
+                                    <li> Распространить информацию о деятельности Центра знаний «Машук», включая его
+                                        программы, методики, подходы и видеоконтент, разработанный в рамках
+                                        образовательного мероприятия.й</li>
                                 </ul>
                             </div>
                         </div>
-                        
-                        <p>Мероприятие прошло в очном формате: помимо очных участников, к событию присоединились более 500 педагогов в онлайн-режиме через платформу вебинаров. Программа включала лекции, мастер-классы, панельные дискуссии и нетворкинг-сессии.</p>
                     </div>
                 </div>
             </section>
@@ -174,21 +186,30 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Ключевые темы и аудитория</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
                     <div class="p-6">
                         <h3 class="text-2xl font-bold mb-4 text-gray-800">Основные направления работы:</h3>
-                        
+
                         <div class="flex flex-wrap gap-3 mb-6">
-                            <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Цифровизация образования</span>
-                            <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Методики преподавания</span>
-                            <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium">Психология обучения</span>
-                            <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">Ментальное здоровье</span>
-                            <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Профразвитие педагогов</span>
+                            <span
+                                class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Организация летнего отдыха и досуга</span>
+                            <span
+                                class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Воспитательные практики для вожатых</span>
+                            <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full text-sm font-medium">Осмысленный досуг и креативное мышление</span>
+                            <span
+                                class="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">Профразвитие педагогов</span>
+                            <span
+                                class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Методики преподавания
+
+                            </span>
                         </div>
-                        
-                        <p class="mb-6">В рамках "Весеннего Педсовета" были подняты наиболее актуальные вопросы современной педагогики. Особое внимание было уделено цифровой трансформации образования, психологическим аспектам работы с новым поколением учеников и методикам эффективного преподавания в условиях меняющегося мира.</p>
-                        
+
+                        <p class="mb-6">В рамках "Весеннего Педсовета" были подняты наиболее актуальные вопросы
+                            современной педагогики. Особое внимание было уделено цифровой трансформации образования,
+                            психологическим аспектам работы с новым поколением учеников и методикам эффективного
+                            преподавания в условиях меняющегося мира.</p>
+
                         <div class="grid md:grid-cols-2 gap-8 mb-6">
                             <div>
                                 <h4 class="text-xl font-bold mb-4 flex items-center">
@@ -220,27 +241,29 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+
                             <div>
                                 <h4 class="text-xl font-bold mb-4 flex items-center">
                                     <i class="fas fa-map-marked-alt mr-3 text-blue-500"></i>
                                     География участников:
                                 </h4>
                                 <div class="bg-blue-50 p-4 rounded-lg">
-                                    <p class="mb-2">Всего представлено 42 региона Российской Федерации. Наибольшее количество участников прибыло из:</p>
+                                    <p class="mb-2">Всего представлено 66 регионов. Наибольшее количество участников
+                                        прибыло из:</p>
                                     <ul class="list-disc pl-5 space-y-1">
-                                        <li>Ставропольского края (23%)</li>
-                                        <li>Москвы и Московской области (18%)</li>
-                                        <li>Краснодарского края (15%)</li>
-                                        <li>Ростовской области (12%)</li>
-                                        <li>Республики Северная Осетия-Алания (8%)</li>
+                                        <li>Липецкой области — 7%</li>
+                                        <li> Ставропольского края — 6%</li>
+                                        <li> Нижегородской области — 6%</li>
+                                        <li> Московской области — 5% </li>
+                                        <li> Свердловской области — 5%</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf708e021e0ef20167e5de18bd7d6d70fffcad95fc67b4028fa0a7fe11e65241&amp;width=1051&amp;height=378&amp;lang=ru_RU&amp;scroll=true"></script>
-                        
-                       <!--   <img src="https://avatars.mds.yandex.net/i?id=1e35119d56ae8cfaba02579df97c5ac2_l-4342938-images-thumbs&n=130" alt="Карта участников" class="w-full h-auto rounded-lg shadow">-->
+                        <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf708e021e0ef20167e5de18bd7d6d70fffcad95fc67b4028fa0a7fe11e65241&amp;width=1051&amp;height=378&amp;lang=ru_RU&amp;scroll=true"></script>
+
+                        <!--   <img src="https://avatars.mds.yandex.net/i?id=1e35119d56ae8cfaba02579df97c5ac2_l-4342938-images-thumbs&n=130" alt="Карта участников" class="w-full h-auto rounded-lg shadow">-->
                     </div>
                 </div>
             </section>
@@ -252,100 +275,1046 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Выступления спикеров</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                
-                <p class="mb-8 text-lg">В рамках "Весеннего Педсовета" выступили 20 ведущих экспертов в области образования. Представляем вам обзор ключевых докладов:</p>
-                
+
+                <p class="mb-8 text-lg">В рамках "Весеннего Педсовета" выступили 20 ведущих экспертов в области
+                    образования. Представляем вам обзор ключевых докладов:</p>
+
                 <!-- Speaker Grid -->
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                     <!-- Speaker 1 -->
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://via.placeholder.com/400x300" alt="Иван Петров" class="w-full h-48 object-cover">
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Иван Петров"
+                            class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Иван Петров</h3>
-                            <p class="text-sm text-gray-600 mb-3">Директор школы №123, эксперт в области цифровизации образования</p>
-                            
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Роман Демьянчук</h3>
+                            <p class="text-sm text-gray-600 mb-3"></p>
+                            <p class="text-sm text-gray-600 mb-3">доктор психологических наук,
+                                педагог-психолог высшей категории, доцент кафедры психологии
+                                образования и педагогики Санкт-Петербургского государственного университета</p>
                             <div class="mb-3">
-                                <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Цифровизация</span>
-                                <span class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Методики</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Цифровизация</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Методики</span>
                             </div>
-                            
+
                             <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">"Как внедрить цифровые технологии в учебный процесс"</p>
-                            
+                            <p class="mb-3 text-blue-600">"Летний период: ключевые аспекты с точки зрения психологии"
+                            </p>
+
                             <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
                             <ul class="list-disc pl-5 text-sm space-y-1">
                                 <li>Цифровизация должна быть поэтапной</li>
                                 <li>Обучение педагогов работе с новыми инструментами</li>
                                 <li>Учёт психологических особенностей учеников</li>
                             </ul>
-                            
+
                             <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">"Цифровые технологии не заменят учителя, но сделают его работу эффективнее"</p>
+                                <p class="text-sm italic">"Цифровые технологии не заменят учителя, но сделают его работу
+                                    эффективнее"</p>
                             </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+
                         </div>
                     </div>
-                    
+
                     <!-- Speaker 2 -->
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://via.placeholder.com/400x300" alt="Елена Смирнова" class="w-full h-48 object-cover">
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Елена Смирнова"
+                            class="w-full h-48 object-cover">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Елена Смирнова</h3>
-                            <p class="text-sm text-gray-600 mb-3">Доктор педагогических наук, профессор МПГУ</p>
-                            
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Светлана Антонова</h3>
+                            <p class="text-sm text-gray-600 mb-3">Должность</p>
+
                             <div class="mb-3">
-                                <span class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Психология</span>
-                                <span class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Мотивация</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Психология</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Мотивация</span>
                             </div>
-                            
+
                             <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">"Психологические аспекты мотивации современного школьника"</p>
-                            
+                            <p class="mb-3 text-blue-600">"Фабрика впечатлений или креативные техники проектирования
+                                образовательных событий"</p>
+
                             <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
                             <ul class="list-disc pl-5 text-sm space-y-1">
                                 <li>Изменение мотивационных факторов у поколения Z</li>
                                 <li>Техники вовлечения в учебный процесс</li>
                                 <li>Роль эмоционального интеллекта педагога</li>
                             </ul>
-                            
+
                             <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
                                 <p class="text-sm italic">"Сегодняшние дети учатся не ради знаний, а ради смыслов"</p>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Speaker 3 -->
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
-                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">Андрей Козлов</h3>
-                            <p class="text-sm text-gray-600 mb-3">Разработчик образовательных платформ</p>
-                            
-                            <div class="mb-3">
-                                <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
-                                <span class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
                             </div>
-                            
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+
+                    </div>
+
+                    <!-- Speaker 3 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Екатерина Калинина</h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
                             <h4 class="font-bold mb-1">Тема:</h4>
-                            <p class="mb-3 text-blue-600">"Образовательные технологии 2023: тенденции и инструменты"</p>
-                            
+                            <p class="mb-3 text-blue-600">"Безопасное лето в Интернете"</p>
+
                             <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
                             <ul class="list-disc pl-5 text-sm space-y-1">
                                 <li>ТОП-5 образовательных платформ для учителей</li>
                                 <li>Геймификация в обучении</li>
                                 <li>Персонализированные траектории обучения</li>
                             </ul>
-                            
+
                             <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
-                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"</p>
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
                             </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                        </div>
+
+                </div>
+
+                <!-- Speaker Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- Speaker 4 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Илья Орлов-Бунин</h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Лето на заводе – или креативное мышление о полезном досуге"
+                            </p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+
+                    <!-- Speaker 5 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Татьяна Гробова</h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Идеальное лето в детском лагере"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+
+                    <!-- Speaker 6 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Николай Данн</h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Кинопедагогика - как инструмент воспитания"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
-                
-                <div class="text-center">
-                    <button class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
-                        Смотреть всех спикеров (20)
-                    </button>
+                <!-- Speaker Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+                    <!-- Speaker 7 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Иван Петров"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Алексей Ильин </h3>
+                            <p class="text-sm text-gray-600 mb-3"></p>
+                            <p class="text-sm text-gray-600 mb-3">доктор психологических наук,
+                                педагог-психолог высшей категории, доцент кафедры психологии
+                                образования и педагогики Санкт-Петербургского государственного университета</p>
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Цифровизация</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded">Методики</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Разнообразие игр. Секреты успешного лета"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Цифровизация должна быть поэтапной</li>
+                                <li>Обучение педагогов работе с новыми инструментами</li>
+                                <li>Учёт психологических особенностей учеников</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Цифровые технологии не заменят учителя, но сделают его работу
+                                    эффективнее"</p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 8 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Елена Смирнова"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Вадим Дмитриев </h3>
+                            <p class="text-sm text-gray-600 mb-3">Должность</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Психология</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Мотивация</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"А если дождь? Практика кабинетных игр"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Изменение мотивационных факторов у поколения Z</li>
+                                <li>Техники вовлечения в учебный процесс</li>
+                                <li>Роль эмоционального интеллекта педагога</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Сегодняшние дети учатся не ради знаний, а ради смыслов"</p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 9 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Алла Демехина </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Имидж педагога в сети"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                        <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                            onclick="openCloudLink()">
+                            <div class="flex items-center">
+                                <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold">Презентация</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function openCloudLink() {
+                                const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                            }
+                        </script>
+                        <br>
+                        <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                            onclick="openCloudLink()">
+                            <div class="flex items-center">
+                                <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold">Конспект</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            function openCloudLink() {
+                                const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                            }
+                        </script>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Speaker Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+                    <!-- Speaker 10 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Мария Плоткина </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Лето по плану: онлайн-сервисы для учителей"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+
+                    <!-- Speaker 11 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Юлия Коричина </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Соматическая практика как способ накопления и сохранения
+                                ресурса"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+
+                    <!-- Speaker 12 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Илья Зенин </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Саморефлексия и мыслетворчество как переход к новому себе"
+                            </p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                       
+                    </div>
+                </div>
+                <!-- Speaker Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+                    <!-- Speaker 13 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Петр Агеев </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Кинопедагогика – практикум по формированию образов"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 14 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Анна Завалина </h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Детский отдых со смыслом: как организовать смысловые события
+                                в лагере и вовлечь участников"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
+
+                    <!-- Speaker 15 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden speaker-card transition duration-300 hover:shadow-lg">
+                        <img src="https://via.placeholder.com/400x300" alt="Андрей Козлов"
+                            class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-gray-800">Мария Афонина</h3>
+                            <p class="text-sm text-gray-600 mb-3">зайка</p>
+
+                            <div class="mb-3">
+                                <span
+                                    class="inline-block px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">EdTech</span>
+                                <span
+                                    class="inline-block px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Инновации</span>
+                            </div>
+
+                            <h4 class="font-bold mb-1">Тема:</h4>
+                            <p class="mb-3 text-blue-600">"Природа эмоций: восстановление жизненной энергии"</p>
+
+                            <h4 class="font-bold mb-1">Ключевые тезисы:</h4>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>ТОП-5 образовательных платформ для учителей</li>
+                                <li>Геймификация в обучении</li>
+                                <li>Персонализированные траектории обучения</li>
+                            </ul>
+
+                            <div class="mt-4 p-3 bg-gray-50 rounded border-l-4 border-blue-500">
+                                <p class="text-sm italic">"Технологии должны решать конкретные педагогические задачи"
+                                </p>
+                            </div>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Презентация</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                            <br>
+                            <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200"
+                                onclick="openCloudLink()">
+                                <div class="flex items-center">
+                                    <i class="fas fa-file-pdf text-blue-500 text-2xl mr-3"></i>
+                                    <div>
+                                        <h4 class="font-bold">Конспект</h4>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <script>
+                                function openCloudLink() {
+                                    const cloudUrl = 'https://disk.yandex.ru/i/kCTFpizaM52wWA'; // Укажите ссылку на облачный архив
+                                    window.open(cloudUrl, '_blank'); // Откроет ссылку в новой вкладке
+                                }
+                            </script>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -356,36 +1325,37 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Аналитика программы</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md p-6 mb-8">
                     <h3 class="text-2xl font-bold mb-6">Статистика мероприятия</h3>
-                    
+
                     <div class="grid md:grid-cols-3 gap-6 mb-8">
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-blue-500">
                             <div class="text-4xl font-bold text-blue-600 mb-2">152</div>
                             <h4 class="text-lg font-medium">Участника</h4>
                             <p class="text-sm text-gray-600 mt-2">Очно</p>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-green-500">
                             <div class="text-4xl font-bold text-green-600 mb-2">4 800 000</div>
                             <h4 class="text-lg font-medium">Шагов</h4>
                             <p class="text-sm text-gray-600 mt-2">В течение 4 дней</p>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-500">
                             <div class="text-4xl font-bold text-purple-600 mb-2">200+</div>
                             <h4 class="text-lg font-medium">Вопросов и обсуждений</h4>
                             <p class="text-sm text-gray-600 mt-2">Живая вовлеченность</p>
                         </div>
                     </div>
-                    
+
                     <h3 class="text-2xl font-bold mb-4">Отзывы участников</h3>
-                    
+
                     <div class="grid md:grid-cols-2 gap-6 mb-8">
                         <div class="testimonial-card p-6 rounded-lg shadow-sm">
                             <div class="flex items-center mb-4">
-                                <img src="https://via.placeholder.com/50" alt="Ольга Иванова" class="w-12 h-12 rounded-full mr-4">
+                                <img src="https://via.placeholder.com/50" alt="Ольга Иванова"
+                                    class="w-12 h-12 rounded-full mr-4">
                                 <div>
                                     <h4 class="font-bold">Олег Лежко</h4>
                                     <p class="text-sm text-gray-600">Руководитель программы, г. Пятигорск</p>
@@ -400,16 +1370,18 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                        
+
                         <div class="testimonial-card p-6 rounded-lg shadow-sm">
                             <div class="flex items-center mb-4">
-                                <img src="https://via.placeholder.com/50" alt="Сергей Петров" class="w-12 h-12 rounded-full mr-4">
+                                <img src="https://via.placeholder.com/50" alt="Сергей Петров"
+                                    class="w-12 h-12 rounded-full mr-4">
                                 <div>
                                     <h4 class="font-bold">Сергей Петров</h4>
                                     <p class="text-sm text-gray-600">Методист, г. Ростов-на-Дону</p>
                                 </div>
                             </div>
-                            <p class="italic">"Отличная организация, насыщенная программа и высокий уровень спикеров. Вернусь в свой регион с массой идей для внедрения!"</p>
+                            <p class="italic">"Отличная организация, насыщенная программа и высокий уровень спикеров.
+                                Вернусь в свой регион с массой идей для внедрения!"</p>
                             <div class="flex mt-3 text-yellow-400">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -419,9 +1391,9 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <h3 class="text-2xl font-bold mb-4">Топ-5 самых популярных сессий</h3>
-                    
+
+                    <!--<h3 class="text-2xl font-bold mb-4">Топ-5 самых популярных сессий</h3>
+
                     <div class="mb-6">
                         <div class="flex items-center justify-between mb-2">
                             <span>1. Цифровые инструменты для учителя</span>
@@ -431,7 +1403,7 @@
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 87%"></div>
                         </div>
                     </div>
-                    
+
                     <div class="mb-6">
                         <div class="flex items-center justify-between mb-2">
                             <span>2. Работа с мотивацией учеников</span>
@@ -441,7 +1413,7 @@
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 82%"></div>
                         </div>
                     </div>
-                    
+
                     <div class="mb-6">
                         <div class="flex items-center justify-between mb-2">
                             <span>3. Профилактика эмоционального выгорания</span>
@@ -451,7 +1423,7 @@
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 78%"></div>
                         </div>
                     </div>
-                    
+
                     <div class="mb-6">
                         <div class="flex items-center justify-between mb-2">
                             <span>4. Современные методики преподавания</span>
@@ -461,7 +1433,7 @@
                             <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
                         </div>
                     </div>
-                    
+
                     <div class="mb-6">
                         <div class="flex items-center justify-between mb-2">
                             <span>5. Правовые аспекты работы педагога</span>
@@ -472,7 +1444,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <!-- Resources Section -->
             <section id="resources" class="mb-16">
@@ -481,7 +1453,7 @@
                     <h2 class="text-3xl font-bold px-4 text-center">Полезные материалы</h2>
                     <div class="h-1 bg-blue-500 flex-grow"></div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <div class="grid md:grid-cols-2 gap-8 mb-8">
                         <div>
@@ -489,7 +1461,7 @@
                                 <i class="fas fa-file-alt mr-3 text-blue-500"></i>
                                 Презентации и раздаточные материалы
                             </h3>
-                            
+
                             <div class="space-y-3">
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
@@ -500,7 +1472,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
                                         <i class="fas fa-file-powerpoint text-orange-500 text-2xl mr-3"></i>
@@ -510,7 +1482,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
                                         <i class="fas fa-file-word text-blue-500 text-2xl mr-3"></i>
@@ -522,13 +1494,13 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div>
                             <h3 class="text-2xl font-bold mb-4 flex items-center">
                                 <i class="fas fa-video mr-3 text-blue-500"></i>
-                                Видеозаписи выступлений
+                                Видеозаписи, для мотивации
                             </h3>
-                            
+
                             <div class="space-y-3">
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
@@ -539,7 +1511,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
                                         <i class="fab fa-youtube text-red-500 text-2xl mr-3"></i>
@@ -549,7 +1521,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="p-3 border rounded-lg hover:bg-blue-50 transition duration-200">
                                     <div class="flex items-center">
                                         <i class="fab fa-youtube text-red-500 text-2xl mr-3"></i>
@@ -562,8 +1534,91 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
+            </section>
+
+
+
+            <!-- Gallery Section -->
+            <section id="gallery" class="mb-16">
+                <div class="flex items-center mb-8">
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                    <h2 class="text-3xl font-bold px-4 text-center">Галерея смыслов</h2>
+                    <div class="h-1 bg-blue-500 flex-grow"></div>
+                </div>
+                
+                <div class="gallery-grid mb-8">
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Безопасное%20лето.png?raw=true" alt="Церемония открытия" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Безопасное лет</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Главное%20вчерашнее.png?raw=true" alt="Участники дискуссии" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Главное вчерашнее</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Гробова.png?raw=true" alt="Мастер-класс" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Гробова</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Демьянчук.png?raw=true" alt="Работа в группах" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Работа в группах</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Завод.png?raw=true" alt="Спикер отвечает на вопросы" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Q&A сессия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Кинопедагогика.png?raw=true" alt="Закрытие мероприятия" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Церемония закрытия</p>
+                        </div>
+                    </div>
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Фабрика%20впечатлений.png?raw=true" alt="Мастер-класс" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Гробова</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Рефлексия.png?raw=true" alt="Работа в группах" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Работа в группах</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Проектная.png?raw=true" alt="Спикер отвечает на вопросы" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Q&A сессия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group overflow-hidden rounded-lg">
+                        <img src="https://github.com/ZuevPU/PedsovetVesna2025/blob/main/Перипатетика.png?raw=true" alt="Закрытие мероприятия" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                            <p class="text-white font-medium text-lg">Церемония закрытия</p>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
 
         </article>
@@ -573,7 +1628,7 @@
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-6xl mx-auto px-6">
 
-            
+
             <div class="pt-8 border-t border-gray-800 text-gray-400 text-sm text-center">
                 <p>© 2025 Центр знаний "Машук". Все права защищены.</p>
             </div>
@@ -581,14 +1636,15 @@
     </footer>
 
     <!-- Back to top button -->
-    <button id="backToTop" class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-blue-700">
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300 hover:bg-blue-700">
         <i class="fas fa-arrow-up"></i>
     </button>
 
     <script>
         // Back to top button functionality
         const backToTopButton = document.getElementById('backToTop');
-        
+
         window.addEventListener('scroll', () => {
             if (window.pageYOffset > 300) {
                 backToTopButton.classList.remove('opacity-0', 'invisible');
@@ -598,22 +1654,22 @@
                 backToTopButton.classList.add('opacity-0', 'invisible');
             }
         });
-        
+
         backToTopButton.addEventListener('click', () => {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             });
         });
-        
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 20,
@@ -624,4 +1680,5 @@
         });
     </script>
 </body>
+
 </html>
